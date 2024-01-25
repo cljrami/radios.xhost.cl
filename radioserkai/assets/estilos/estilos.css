@@ -1,0 +1,58 @@
+body {
+  /* background: radial-gradient(circle at top, #F1FF01 , #03A2FC) */
+
+}
+
+@media (min-width: 320px) {
+    img {
+      width: 50%;
+      height: auto;
+    }
+    .player {
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media (min-width: 576px) {
+    img {
+      width: 33%;
+      height: auto;
+    }
+    .player {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 768px) {
+    img {
+      width: 33%;
+      height: auto;
+    }
+    .player {
+      width: 80%;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 992px) {
+    img {
+      width: 40%;
+      height: auto;
+    }
+    .player {
+      width: 80%;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    img {
+      width: 20%;
+      height: auto;
+    }
+    .player {
+      width: 60%;
+      height: auto;
+    }
+  }
